@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background: #3C4146;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+header{
+    background:#F90909;
+    text-align: center;
+    border-bottom:1px solid black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    background: #5cb7cf;
+    height: 50px;
+    border-bottom: 1px solid black; 
+  
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;/* alinear el texto con la altura del nav */
+
+}
+
+nav ul li:hover{
+    background-color:#f90909 ;
+    color: white;
+    cursor: pointer;
+} 
+
+
+
+
+
+.clearfix
+{
+    clear: both;/* cuando yo floto los elemntos de arriba los elementos de abjo se queden en su sitio */
+}
+
+    
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    background: white;
+    min-height: 550px;
+    padding: 40px;
+    
+}
+
+.article{
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+}
+
+article h2{
+    font-size: 30px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px ) ;
+    background: orangered;
+    min-height: 550px;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50PX;
+    line-height: 50PX;
+}
